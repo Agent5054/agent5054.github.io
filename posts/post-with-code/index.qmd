@@ -1,0 +1,12 @@
+---
+title: "Project CETI"
+author: "Justin Stanley"
+date: "2025-02-24"
+categories: [science, tech, AI, cetaceans]
+image: "image.jpg"
+comments:
+    utterances:
+      repo: Agent5054/comments
+---
+
+Did you know that there's a big multidisciplinary project under way to try to decipher the communications of whales using machine learning? [What a fascinating effort.](https://www.projectceti.org/){.external target="_blank"}
