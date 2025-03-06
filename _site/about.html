@@ -127,22 +127,15 @@ ul.task-list li input[type="checkbox"] {
 <hr>
 <section id="education" class="level3">
 <h3 data-anchor-id="education">Education</h3>
-<hr>
-<div style="text-align: left">
-<p><strong>J.D., University of Kentucky College of Law</strong> (2020)</p>
+<p><br> <strong>J.D., University of Kentucky College of Law</strong> (2020)</p>
 <p><strong>B.A., Classics, University of Richmond</strong> (2005)</p>
-</div>
 <hr>
 </section>
 <section id="activities" class="level3">
 <h3 data-anchor-id="activities">Activities</h3>
-<hr>
-<div style="text-align: left">
-<p><a href="https://kcadp.org" class="external" target="_blank"><strong>Kentucky Coalition to Abolish the Death Penalty</strong></a>, Board Treasurer</p>
+<p><br> <a href="https://kcadp.org" class="external" target="_blank"><strong>Kentucky Coalition to Abolish the Death Penalty</strong></a>, Board Treasurer</p>
 <p><a href="https://www.harrysimmsfund.org" class="external" target="_blank"><strong>Harry Simms Fund for Education</strong></a>, Board President</p>
 <p><a href="https://www.patchworkcoop.org/" class="external" target="_blank"><strong>Patchwork Loan Cooperative</strong></a>, Board Member</p>
-</div>
-<hr>
 
 
 </section>
@@ -376,7 +369,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/justindstanley\.quarto\.pub\/blog");
+      var filterRegex = new RegExp('/' + window.location.host + '/');
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }

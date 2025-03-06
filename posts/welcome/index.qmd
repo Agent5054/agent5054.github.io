@@ -1,15 +1,13 @@
 ---
-title: "John Winstead is a Liberal and is Thus Ontologically Evil"
-author: "Immanuel Kant"
+title: "The Participatory Budgeting Project"
+author: "Justin Stanley"
 date: "2025-02-21"
-categories: [news, truth]
+categories: [policy, democracy]
 comments:
     utterances:
       repo: Agent5054/comments
 ---
 
-Vivamus, mea Lesbia, atque amemus. Rumoresque senum severiorum omnes unius aestimemus assis.
+Participatory budgeting is one way that we can deepen democracy through the budgeting process.
 
-![](thumbnail.jpg)
-
-Since this post doesn't specify an explicit `image`, the first image in the post will be used in the listing page of posts.
+Read more here: <https://www.participatorybudgeting.org>
