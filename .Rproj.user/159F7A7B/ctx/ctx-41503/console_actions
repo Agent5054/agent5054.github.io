@@ -1,0 +1,38 @@
+{
+    "type": [
+        2,
+        2,
+        0,
+        1,
+        3,
+        3,
+        2,
+        3,
+        0,
+        1,
+        2,
+        2,
+        2,
+        0,
+        1,
+        2
+    ],
+    "data": [
+        "\nR version 4.1.2 (2021-11-01) -- \"Bird Hippie\"\nCopyright (C) 2021 The R Foundation for Statistical Computing\nPlatform: x86_64-pc-linux-gnu (64-bit)\n\nR is free software and comes with ABSOLUTELY NO WARRANTY.\nYou are welcome to redistribute it under certain conditions.\nType 'license()' or 'licence()' for distribution details.\n\n  Natural language support but running in an English locale\n\nR is a collaborative project with many contributors.\nType 'contributors()' for more information and\n'citation()' on how to c",
+        "ite R or R packages in publications.\n\nType 'demo()' for some demos, 'help()' for on-line help, or\n'help.start()' for an HTML browser interface to help.\nType 'q()' to quit R.\n\n",
+        "> ",
+        "install.packages(\"renv\")",
+        "Installing package into ‘/home/jdst258/R/x86_64-pc-linux-gnu-library/4.1’\n(as ‘lib’ is unspecified)\ntrying URL 'https://cloud.r-project.org/src/contrib/renv_1.1.2.tar.gz'\nContent type 'application/x-gzip' length 1263920 bytes (1.2 MB)\n==================================================\ndownloaded 1.2 MB\n\n* installing *source* package ‘renv’ ...\n** package ‘renv’ successfully unpacked and MD5 sums checked\n** using staged installation\n** R\n** inst\n** byte-compile and prepare package for lazy lo",
+        "ading\n",
+        "** libs\ngcc -I\"/usr/share/R/include\" -DNDEBUG      -fpic  -g -O2 -ffile-prefix-map=/build/r-base-4A2Reg/r-base-4.1.2=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c renv.c -o renv.o\ngcc -shared -L/usr/lib/R/lib -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -o renv.so renv.o -L/usr/lib/R/lib -lR\n",
+        "** help\n*** installing help indices\n*** copying figures\n** building package indices\n** installing vignettes\n** testing if installed package can be loaded from temporary location\n** checking absolute paths in shared objects and dynamic libraries\n** testing if installed package can be loaded from final location\n** testing if installed package keeps a record of temporary installation path\n* DONE (renv)\n\nThe downloaded source packages are in\n\t‘/tmp/Rtmp5QRTjy/downloaded_packages’\n",
+        "> ",
+        "renv::init()",
+        "\nrenv: Project Environments for R\n\nWelcome to renv! It looks like this is your first time using renv.\nThis is a one-time message, briefly describing some of renv's functionality.\n\nrenv will write to files within the active project folder, including:\n\n  - A folder 'renv' in the project directory, and\n  - A lockfile called 'renv.lock' in the project directory.\n\nIn particular, projects using renv will normally use a private, per-project\nR library, in which new packages will be installed. This project library i",
+        "s\nisolated from other R libraries on your system.\n\nIn addition, renv will update files within your project directory, including:\n\n  - .gitignore\n  - .Rbuildignore\n  - .Rprofile\n\nFinally, renv maintains a local cache of data on the filesystem, located at:\n\n  - \"~/.cache/R/renv\"\n\nThis path can be customized: please see the documentation in `\u001B]8;;x-r-help:renv::paths\u0007?renv::paths\u001B]8;;\u0007`.\n\nPlease read the introduction vignette with `vignette(\"renv\")` for more information.\nYou can browse the package documentatio",
+        "n online at https://rstudio.github.io/renv/.\n",
+        "Do you want to proceed? [y/N]: ",
+        "y",
+        "\n- \"~/.cache/R/renv\" has been created.\nThe following package(s) will be updated in the lockfile:\n\n# CRAN -----------------------------------------------------------------------\n- renv   [* -> 1.1.2]\n\nThe version of R recorded in the lockfile will be updated:\n- R      [* -> 4.1.2]\n\n- Lockfile written to \"~/blog/renv.lock\".\n\nRestarting R session...\n\n"
+    ]
+}

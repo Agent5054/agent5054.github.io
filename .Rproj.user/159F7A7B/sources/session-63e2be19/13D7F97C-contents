@@ -1,0 +1,20 @@
+/* css styles */
+
+body {
+  font-family: 'Google Sans', sans-serif; /* Use Google Sans, fallback to a sans-serif font */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Google Sans', sans-serif; /* Apply to headings */
+  font-weight: 700; /* Example: make headings bold */
+}
+
+/* Example for specific elements */
+.special-text {
+  font-family: 'Google Sans', sans-serif;
+  font-style: italic;
+}
+
+p {
+    font-family: 'Google Sans', sans-serif;
+}
