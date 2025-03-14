@@ -1,0 +1,16 @@
+---
+title: "The Tricontinental"
+author: "Justin Stanley"
+date: "2025-03-14"
+categories: [democracy, policy]
+image: "watering-day.jpg"
+comments:
+    utterances:
+      repo: Agent5054/comments
+---
+
+The Tricontinental Institute for Social Research [describes itself](https://thetricontinental.org/about/#mission) as "an international institute guided by popular movements and organisations \[which seeks\] to build a bridge between academic production and political and social movements in order to promote critical thinking and stimulate debates and research with an emancipatory perspective that serves the people’s aspirations." It's a resource I return to frequently.
+
+You can read their latest newsletter here: [Twenty-Five Days of Debt-Service Payments Could Emancipate African Women from 40 Billion Hours of Water Harvesting: The Eleventh Newsletter (2025)](https://thetricontinental.org/newsletterissue/women-gender-inequality-poverty/)
+
+I also really enjoyed this article about the environmental remediation efforts in China since 2013: [Reviving Erhai Lake](https://thetricontinental.org/wenhua-zongheng-2024-2-reviving-erhai-lake/)

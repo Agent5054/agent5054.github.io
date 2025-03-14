@@ -2,6 +2,7 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/tricontinental/index.html",
       "/posts/project-ceti/index.html",
       "/posts/pb/index.html"
     ]
