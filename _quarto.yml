@@ -2,7 +2,7 @@ project:
   type: website
 
 website:
-  favicon: sign-turn-left
+  favicon: apple-touch-icon.png
   navbar:
     background: "#000066"
     foreground: "#FBF8F4"
