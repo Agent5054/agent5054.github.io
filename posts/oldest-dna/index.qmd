@@ -1,6 +1,12 @@
 ---
 title: Ancient DNA
+author: Justin Stanley
+date: March 27, 2025
+categories: [science, tech]
 image: oldest.png
+comments:
+    utterances:
+      repo: Agent5054/comments
 ---
 
 I was captivated last night when I came across this Nova documentary about the search for environmental DNA and the methods that allowed sequencing of fragments as old as two million years. Very much worth a watch!
