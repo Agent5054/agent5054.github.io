@@ -1,9 +1,9 @@
 ---
-title: Ancient DNA
-author: Justin Stanley
-date: March 27, 2025
+title: "Ancient DNA"
+author: "Justin Stanley"
+date: "2025-03-27"
 categories: [science, tech]
-image: oldest.png
+image: "oldest.png"
 comments:
     utterances:
       repo: Agent5054/comments
