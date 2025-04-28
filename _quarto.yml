@@ -12,7 +12,7 @@ website:
         text: Social Media ![](/linkstacc.png){height=1.5em}
     left: 
     - href: index.qmd 
-      text: justindstanley.com
+      text: Home
       
 format:
   html:
