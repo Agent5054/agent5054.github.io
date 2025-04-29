@@ -1,0 +1,14 @@
+---
+title: "Building a World Without Carbon"
+author: "Justin Stanley"
+date: "2025-04-29"
+categories: [science, tech]
+image: "megaproject.jpg"
+comments:
+    utterances:
+      repo: Agent5054/comments
+---
+
+According to **Costa Samaras, Director of the Wilton E. Scott Institute for Energy Innovation at Carnegie Mellon University**, building a world without carbon will require us to think in terms of "megaprojects". [Writing for the Roosevelt Institute](https://rooseveltinstitute.org/blog/building-a-world-without-carbon/), Dr. Samaras notes that in order to meet a target date of 2050 for net zero carbon emissions, a heroic effort will still be needed. We've made a start on the transition, but it remains to be seen what the effects of this administration will be. They're unlikely to be good.
+
+You can follow Dr. Samaras on [Bluesky](https://bsky.app/profile/costasamaras.com).

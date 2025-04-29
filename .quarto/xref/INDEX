@@ -28,5 +28,8 @@
   },
   "proposal.qmd": {
     "proposal.html": "41ffb7b3"
+  },
+  "posts/carbon/index.qmd": {
+    "index.html": "ffda05b2"
   }
 }
