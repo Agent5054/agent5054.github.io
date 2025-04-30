@@ -1,11 +1,12 @@
 /* css styles */
 
 body {
-  font-family: 'Google Sans', sans-serif; /* Use Google Sans, fallback to a sans-serif font */
+  font-family: "SFMono-Regular", Roboto, "Liberation Mono", Menlo, Courier, monospace;
+  font-size: 11pt; 
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Google Sans', sans-serif; /* Apply to headings */
+  font-family: 'SFMono-Regular', sans-serif; /* Apply to headings */
   font-weight: 700; /* Example: make headings bold */
 }
 

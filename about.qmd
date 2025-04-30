@@ -5,7 +5,7 @@ about:
   template: jolla
 ---
 
-I'm a policy analyst and dedicated servant of several domestic animals and a spouse, living in Lexington, Kentucky, USA.
+I'm a policy analyst and dedicated servant of several domestic animals and a spouse, living in Lexington, Kentucky, USA.<br>
 
 ------------------------------------------------------------------------
 
@@ -19,7 +19,9 @@ I'm a policy analyst and dedicated servant of several domestic animals and a spo
 
 ### Activities
 
-<br> [**Kentucky Coalition to Abolish the Death Penalty**](https://kcadp.org){.external target="_blank"}, Board Treasurer
+<br>I'm lucky to be involved in several organizations doing important work in Lexington and the Commonwealth.
+
+[**Kentucky Coalition to Abolish the Death Penalty**](https://kcadp.org "https://kcadp.org"), Board Treasurer
 
 [**Harry Simms Fund for Education**](https://harrysimmsfund.org){.external target="_blank"}, Board President
 
@@ -29,10 +31,36 @@ I'm a policy analyst and dedicated servant of several domestic animals and a spo
 
 ### Personal
 
-##### <br>**Christine**
+##### <br>
 
-<br>I would be remiss if Christine wasn't the first thing I mentioned!
+#### Christine 
 
-![At the Story Corps interview.](images/justin and christine.jpg){fig-alt="A Black woman and a white man with a beard smile at the viewer, their arms around each other's shoulders." fig-align="center"}
+![At the Story Corps interview.](images/justin%20and%20christine.jpg){fig-alt="A Black woman and a white man with a beard smile at the viewer, their arms around each other's shoulders." fig-align="center"}
 
-You can listen to our interview [on Story Corps](https://archive.storycorps.org/interviews/christine-stanley-and-justin-stanley/ "https://archive.storycorps.org/interviews/christine-stanley-and-justin-stanley/"){.external target="_blank"} (April 2025) if you want to hear us in an unstructured conversation. She is a healthcare defense litigator, law professor, and [occasional constitutional scholar](https://statecourtreport.org/our-work/analysis-opinion/who-can-challenge-state-abortion-bans-its-not-so-clear-cut "https://statecourtreport.org/our-work/analysis-opinion/who-can-challenge-state-abortion-bans-its-not-so-clear-cut"){.external target="_blank"}.
+Christine is my favorite person, obviously. If you want to know more about her, you can listen to our interview [**on Story Corps**](https://archive.storycorps.org/interviews/christine-stanley-and-justin-stanley/ "https://archive.storycorps.org/interviews/christine-stanley-and-justin-stanley/"){.external target="_blank"} (April 2025) if you want to hear us in an unstructured conversation. She is a healthcare defense litigator, law professor, and [**occasional constitutional scholar**](https://statecourtreport.org/our-work/analysis-opinion/who-can-challenge-state-abortion-bans-its-not-so-clear-cut "https://statecourtreport.org/our-work/analysis-opinion/who-can-challenge-state-abortion-bans-its-not-so-clear-cut"){.external target="_blank"}**.**
+
+#### <br>**Pets**
+
+<br>Our pets are a big part of our lives. We both love animals and try our best to support rescue efforts. They are:
+
+![Athena (L) and Apollo (R)](images/WhatsApp Image 2025-04-30 at 2.39.10 PM.jpeg)
+
+![Poppy](images/WhatsApp Image 2025-04-30 at 2.40.00 PM.jpeg)
+
+<br>
+
+#### Other Interests
+
+<br>Some of the other things I'm interested in include, but aren't limited to:
+
+::: {style="text-align: left"}
+-   History, especially the Aegean Bronze Age, Classical Greece and republican Rome, and Hellenistic Greece.
+
+-   Free and open-source software, such as Linux. It's come a very long way!
+
+-   Teaching myself web design (very slowly).
+
+-   Political theory and political economy.
+:::
+
+![](images/euripides.jpg)
