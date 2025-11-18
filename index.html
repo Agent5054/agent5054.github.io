@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.29">
+<meta name="generator" content="quarto-1.8.26">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -35,18 +35,19 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-0815c480559380816a4d1ea211a47e91.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-748b535e376f14d4692bf2b2e5fd6380.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-0815c480559380816a4d1ea211a47e91.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b758ccaa5987ceb1b75504551e579abf.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-adffa8adf8a24d298ceb93eb803a3dea.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-6cf3e647a2a8a48d3b23b55f18201c9c.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-adffa8adf8a24d298ceb93eb803a3dea.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-20f0b6d1539fb81548b0ee6bbdb98e26.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-ff2d5ac60497b7051ab4e02bd872e079.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-20f0b6d1539fb81548b0ee6bbdb98e26.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -118,7 +119,7 @@ const typesetMath = (el) => {
     var macros = [];
     for (var i = 0; i < mathElements.length; i++) {
       var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
         window.katex.render(texText.data, mathElements[i], {
           displayMode: mathElements[i].classList.contains('display'),
           throwOnError: false,
@@ -291,6 +292,7 @@ window.Quarto = {
       toggleColorMode(toAlternate);
       setStyleSentinel(toAlternate);
       toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
     };
     // Switch to dark mode if need be
     if (hasAlternateSentinel()) {
@@ -369,7 +371,7 @@ window.Quarto = {
 
 <div class="quarto-listing quarto-listing-container-default" id="listing-listing">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="c2NpZW5jZSUyQ3RlY2g=" data-listing-date-sort="1745884800000" data-listing-file-modified-sort="1746056565595" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="96">
+<div class="quarto-post image-right" data-index="0" data-categories="c2NpZW5jZSUyQ3RlY2g=" data-listing-date-sort="1745884800000" data-listing-file-modified-sort="1763482869678" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="96">
 <div class="thumbnail"><a href="./posts/carbon/index.html" class="no-external">
 
 <img loading="lazy" src="./posts/carbon/megaproject.jpg" class="thumbnail-image">
@@ -401,7 +403,7 @@ Justin Stanley
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="1" data-categories="c2NpZW5jZSUyQ3RlY2g=" data-listing-date-sort="1743724800000" data-listing-file-modified-sort="1746056565597" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="63">
+<div class="quarto-post image-right" data-index="1" data-categories="c2NpZW5jZSUyQ3RlY2g=" data-listing-date-sort="1743724800000" data-listing-file-modified-sort="1763482869681" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="63">
 <div class="thumbnail"><a href="./posts/standards/index.html" class="no-external">
 
 <img loading="lazy" src="./posts/standards/Standards-700x420.jpg" class="thumbnail-image">
@@ -433,7 +435,7 @@ Justin Stanley
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="2" data-categories="c2NpZW5jZSUyQ3RlY2g=" data-listing-date-sort="1743033600000" data-listing-file-modified-sort="1746056565595" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="43">
+<div class="quarto-post image-right" data-index="2" data-categories="c2NpZW5jZSUyQ3RlY2g=" data-listing-date-sort="1743033600000" data-listing-file-modified-sort="1763482869679" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="43">
 <div class="thumbnail"><a href="./posts/oldest-dna/index.html" class="no-external">
 
 <img loading="lazy" src="./posts/oldest-dna/oldest.png" class="thumbnail-image">
@@ -465,7 +467,7 @@ Justin Stanley
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="3" data-categories="ZGVtb2NyYWN5JTJDcG9saWN5" data-listing-date-sort="1741910400000" data-listing-file-modified-sort="1746056565600" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="102">
+<div class="quarto-post image-right" data-index="3" data-categories="ZGVtb2NyYWN5JTJDcG9saWN5" data-listing-date-sort="1741910400000" data-listing-file-modified-sort="1763482869684" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="102">
 <div class="thumbnail"><a href="./posts/tricontinental/index.html" class="no-external">
 
 <img loading="lazy" src="./posts/tricontinental/watering-day.jpg" class="thumbnail-image">
@@ -497,7 +499,7 @@ Justin Stanley
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="4" data-categories="c2NpZW5jZSUyQ3RlY2glMkNBSSUyQ2NldGFjZWFucw==" data-listing-date-sort="1740355200000" data-listing-file-modified-sort="1746056565597" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="27">
+<div class="quarto-post image-right" data-index="4" data-categories="c2NpZW5jZSUyQ3RlY2glMkNBSSUyQ2NldGFjZWFucw==" data-listing-date-sort="1740355200000" data-listing-file-modified-sort="1763482869681" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="27">
 <div class="thumbnail"><a href="./posts/project-ceti/index.html" class="no-external">
 
 <img loading="lazy" src="./posts/project-ceti/image.jpg" class="thumbnail-image">
@@ -533,7 +535,7 @@ Justin Stanley
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="5" data-categories="cG9saWN5JTJDZGVtb2NyYWN5" data-listing-date-sort="1740096000000" data-listing-file-modified-sort="1746056565596" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="17">
+<div class="quarto-post image-right" data-index="5" data-categories="cG9saWN5JTJDZGVtb2NyYWN5" data-listing-date-sort="1740096000000" data-listing-file-modified-sort="1763482869680" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="17">
 <div class="thumbnail"><a href="./posts/pb/index.html" class="no-external">
 
 <img loading="lazy" src="./posts/pb/polling table.jpg" class="thumbnail-image">
@@ -632,13 +634,14 @@ Justin Stanley
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy
