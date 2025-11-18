@@ -47,7 +47,7 @@ Christine is my favorite person, obviously. If you want to know more about her, 
 
 ![Poppy](images/WhatsApp%20Image%202025-04-30%20at%202.40.00%20PM.jpeg)
 
-![Pumpkin Spice](images/WhatsApp Image 2025-11-18 at 10.29.54 AM.jpeg){fig-alt="A tortoiseshell cat looking out a picture window.  Her tail is pointing straight up."}
+![Pumpkin Spice](images/WhatsApp%20Image%202025-11-18%20at%2010.29.54%20AM.jpeg){fig-alt="A tortoiseshell cat looking out a picture window.  Her tail is pointing straight up."}
 
 <br>
 
